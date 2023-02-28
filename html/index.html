@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- icono -->
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/360px-Dimayor_Colombia_logo.svg.png">
+    <title>Actividad 1</title>
+    <style>
+        table, th, td {
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 20px;
+        }
+        h1,p{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body style="background-image: radial-gradient(circle at 87.5% 12.5%, #f5d2d1 0, #dec5c6 16.67%, #c2b5b7 33.33%, #a4a4a4 50%, #87938f 66.67%, #70847b 83.33%, #5e7769 100%);">
+    <header>
+        <h1><center>Encuesta futbolística </center></h1>
+    </header>
+    <nav>
+        <p><center>Este formulario es para saber cual es el equipo preferido de la liga profesional Colombiana de fútbol masculino.</center></p>
+        <p><center>En la parte final de la pagina web encontrara un formulario, el cual, puede selecionar a su equipo favorito del futbol profesional colombiano de la liga bet play.</center></p>
+        <ul>
+            <!-- equipos de futbol de la liga profesional colombiana -->
+            <table style="width: 85%;text-align: center;margin: 0 auto; background-image: url('https://telemedellin.tv/wp-content/uploads/2019/10/F%C3%BAtbol.jpg');" border="3">
+                    <tr><th>
+                            <a href="https://app.juniorfc.co/" target="Junior Fc">
+                                <img src="https://app.juniorfc.co/sites/all/themes/basic_theme/images/logo-junior-fc.png" width="60%">
+                            </a>
+                        </th>
+                        <th>    
+                            <a href="https://dimoficial.com/" target="Independiete Medellin">
+                                <img src="https://dimoficial.com/wp-content/uploads/2020/08/escudo-pequeno-dim_Mesa-de-trabajo-1-300x300.png" width="20%">
+                            </a>
+                        </th> 
+                        <th>   
+                            <a href="https://www.atlnacional.com.co/" target="Atletico Nacional">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Escudo_de_Atl%C3%A9tico_Nacional.png/180px-Escudo_de_Atl%C3%A9tico_Nacional.png" width="25%">
+                            </a>
+                        </th>
+                    </tr>
+                    <tr><th>
+                            <a href="https://millonarios.com.co/" target="Millonarios Fc">
+                                <img src="https://millonarios.com.co/wp-content/uploads/2019/08/cropped-logo2.png" width="60%">
+                            </a>
+                        </th>    
+                        <th>
+                            <a href="https://independientesantafe.com/" target="Sante Fe">
+                                <img src="https://independientesantafe.com/wp-content/uploads/2021/02/cropped-Diseno-sin-titulo-2021-02-25T081429.398.png" width="25%">
+                            </a>
+                        </th>
+                        <th>
+                            <a href="https://www.envigadofc.co/" target="Envigado">
+                                <img src="https://1.bp.blogspot.com/-f26u0pGWqT4/X59l4iHeu3I/AAAAAAABhOM/H9b5RKz8RNUK610J5ObSQXii6WDoCI2-ACLcBGAsYHQ/s16000/Envigado%2BFC.png" width="35%">
+                            </a>
+                        </th>
+                </tr>    
+            </table>
+        </ul>
+    </nav>
+    <br>
+    <!-- formulario -->
+    <table align="center" style="width: 82%; text-align: center; margin: 0 auto; background-image: url(https://cdnuploads.aa.com.tr/uploads/Contents/2020/02/18/thumbs_b_c_ca8134feabff1b019e1a967de592c650.jpg);"border="3">
+            <tr>
+                <td>
+                    <h3>Formulario</h3>
+                </td>
+            </tr>
+                <td>
+                    <label>Nombres: </label>
+                    <input type="text" name="nombres" placeholder="Digite sus Nombres">
+                </td>
+                <td>
+                    <label>Apellidos: </label>
+                    <input type="text" name="apellidos" placeholder="Digite sus Apellidos">
+                </td>
+                <td>
+                    <label>Edad: </label>
+                    <input type="text" name="Edad" placeholder="Digite su Edad">
+                </td>
+            <tr>        
+                <td>
+                    <label>Sexo: </label>
+                </td>    
+                <td>
+                    <input type="radio" name="sexo" value="masculino" checked>Masculino
+                </td>    
+                <td>
+                    <input type="radio" name="sexo" value="femenino" checked>Femenino
+                </td>
+            </tr>
+            <tr>    
+                <td>
+                    <label>Fecha de Nacimiento</label>
+                    <input type="date" name="miFecha">
+                </td>    
+                <td>
+                    <label>Selecione el Nombre del Equipo de Futbol: </label>
+                    <select name="opcion">
+                        <option>Junior Fc</option>
+                        <option>Ind Medellin</option>
+                        <option>Atl Nacional</option>
+                        <option>Millonarios</option>
+                        <option>Ind Santa fe</option>
+                        <option>Envigado Fc </option>
+                        <option>Todos los anteriores</option>
+                    </select>
+                </td>    
+                <td>
+                    <input type="submit" name="enviar" value="Enviar">
+                    <input type="reset" name="limpiar" value="Limpiar">
+                </td>    
+            </tr>    
+    </table>
+</body>
+</html>
+
+    <!-- _    _     _       
+   / \  | | __| | ___  
+  / _ \ | |/ _` |/ _ \ 
+ / ___ \| | (_| | (_) |
+/_/   \_\_|\__,_|\___/ 
+                       
+ ____             _ _       
+|  _ \ _   _  ___| | | ___  
+| |_) | | | |/ _ \ | |/ _ \ 
+|  __/| |_| |  __/ | | (_) |
+|_|    \__,_|\___|_|_|\___/ 
+
+____                 _              
+|  _ \ __ _ _ __ ___ (_)_ __ ___ ____
+| |_) / _` | '_ ` _ \| | '__/ _ \_  /
+|  _ < (_| | | | | | | | | |  __// / 
+|_| \_\__,_|_| |_| |_|_|_|  \___/___| -->
